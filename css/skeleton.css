@@ -28,6 +28,18 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+nav ul li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  color: #5674ed;
+  text-decoration: none;
+  padding: 3px;
+}
+
+nav ul li a:hover {border: 3px dashed #56eded;}
+
+nav {text-align: center;}
 
 .italics {font-style: italic;}
 dt {font-weight: bold;}
